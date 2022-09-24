@@ -15,8 +15,6 @@ builder.Services.AddDbContextPool<EfContext>(options =>
     });
 
     options.EnableDetailedErrors(true);
-
-    options.AddInterceptors
 });
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
